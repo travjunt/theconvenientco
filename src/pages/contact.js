@@ -40,7 +40,7 @@ const IndexPage = () => (
       </div>
     </div>
     <div className="Cards">
-      <h2>SERVICES</h2>
+      <h2>CONTACT</h2>
       <p>From selling Refurbished and Pre-loved Apple products to creating high-quality custom vinyl. <br></br>Contact us today!</p>
       <div className="CardGroup">
         <Card 

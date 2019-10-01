@@ -28,7 +28,7 @@ class Header extends React.Component {
 
   handlePurchase = (token) => {
     const amount = 5000
-    const description = "My awesome product"
+    const description = "MacBook"
 
     const bodyObject = {
       tokenId: token.id,
@@ -48,17 +48,17 @@ class Header extends React.Component {
     return (
       <div className={this.state.hasScrolled ? 'Header HeaderScrolled' : 'Header'}>
         <div className="HeaderGroup">
-          <Link to="/"><img src='/images/logo-designcode.svg' width="30" /></Link>
-          <Link to="/courses">Courses</Link>
-          <Link to="/downloads">Downloads</Link>
-          <Link to="/workshops">Workshops</Link>
+          <Link to="/"><img src='/images/logo-1.png' width="80" /></Link>
+          <Link to="/services">Services</Link>
+          <Link to="/conveniently-cut">Custom Vinyl</Link>
+          <Link to="/contact">Contact</Link>
           <StripeCheckout
             amount={ 5000 }
             image="https://cl.ly/0K2f1V3K3h0D/download/Logo.jpg"
             token={this.handlePurchase}
             stripeKey={'pk_test_4VuxMZhOiYXJlElaTf3qjAXh'}
             >
-            <button>Buy</button>
+            <button>Shop</button>
           </StripeCheckout>
         </div>
       </div>
