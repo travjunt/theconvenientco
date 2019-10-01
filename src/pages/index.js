@@ -52,7 +52,7 @@ const IndexPage = () => (
           text="Professional Quality Prcision-Cut Custom Vinyl"
           image='/images/vinyl.jpg' />
         <Card 
-          title="Services"
+          title="Repair"
           text="Apple Certified Technician Repair"
           image='/images/repair2.jpg' />
       </div>
